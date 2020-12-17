@@ -1,0 +1,29 @@
+$header-footer-height: 300px;
+$main-height: 600px;
+$content-height: 400px;
+$nav-height: 100px;
+$max-width: 90%;
+
+header {
+  height: $header-footer-height;
+  nav {
+    height: $nav-height;
+    width: $max-width;
+  }
+}
+
+main {
+  height: $main-height;
+  #content {
+    height: $content-height;
+    width: $max-width;
+  }
+}
+
+footer {
+  height: $header-footer-height;
+  nav {
+    height: $nav-height;
+    width: $max-width;
+  }
+}
