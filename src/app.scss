@@ -1,0 +1,15 @@
+// @import "_each";
+// @import "_for";
+// @import "_while";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// id del container
+#app {
+  width: 100vw;
+  height: 100vh;
+}
